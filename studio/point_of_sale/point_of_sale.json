@@ -3,15 +3,12 @@
  "app_name": "point-of-sale",
  "app_title": "Point of Sale",
  "creation": "2025-04-03 01:30:58.708034",
- "docstatus": 0,
  "doctype": "Studio App",
  "frappe_app": "mini_pos",
- "idx": 1013,
  "is_standard": 1,
- "modified": "2025-07-30 21:06:10.907660",
+ "modified": "2025-08-06 12:31:54.009788",
  "modified_by": "Administrator",
  "name": "point-of-sale",
  "owner": "Administrator",
- "published": 0,
  "route": "point-of-sale"
 }
