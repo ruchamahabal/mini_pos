@@ -18,6 +18,8 @@
   {
    "fieldname": "customer",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Customer"
   },
   {
@@ -34,6 +36,7 @@
   {
    "fieldname": "total_qty",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Total Qty"
   },
   {
@@ -43,13 +46,14 @@
   {
    "fieldname": "total_amount",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Total Amount"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-30 21:04:02.415286",
+ "modified": "2025-09-17 14:35:17.274587",
  "modified_by": "Administrator",
  "module": "Mini Pos",
  "name": "Invoice",
