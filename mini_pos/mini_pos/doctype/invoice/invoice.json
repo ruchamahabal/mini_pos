@@ -12,7 +12,8 @@
   "totals_section",
   "total_qty",
   "column_break_dgub",
-  "total_amount"
+  "total_amount",
+  "amended_from"
  ],
  "fields": [
   {
@@ -48,12 +49,23 @@
    "fieldtype": "Currency",
    "in_list_view": 1,
    "label": "Total Amount"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Invoice",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2025-09-17 14:35:17.274587",
+ "modified": "2025-12-17 12:23:57.830767",
  "modified_by": "Administrator",
  "module": "Mini Pos",
  "name": "Invoice",

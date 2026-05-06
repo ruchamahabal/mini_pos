@@ -1,0 +1,13 @@
+{
+	"name": "mini_pos",
+	"private": true,
+	"type": "module",
+	"dependencies": {
+		"gemoji": "^8.1.0"
+	},
+	"peerDependencies": {
+		"vue": "^3.5.0",
+		"vue-router": "^4.0.0",
+		"frappe-ui": "*"
+	}
+}

@@ -1,0 +1,408 @@
+{
+ "blocks": [],
+ "client_scripts": [],
+ "creation": "2026-05-06 11:08:47.591379",
+ "doctype": "Studio Page",
+ "draft_blocks": [
+  {
+   "baseStyles": {
+    "display": "flex",
+    "flexDirection": "row",
+    "flexShrink": 0,
+    "height": "100%",
+    "overflowX": "hidden",
+    "width": "inherit"
+   },
+   "blockName": "body",
+   "children": [
+    {
+     "children": [],
+     "classes": [],
+     "componentId": "Sidebar-r87xybb6s",
+     "componentName": "Sidebar",
+     "componentProps": {
+      "collapsed": null,
+      "header": {
+       "menuItems": [
+        {
+         "icon": "{{ getIcon('circle-question-mark') }}",
+         "label": "Help",
+         "onClick": "() => alert(\"Help clicked!\")",
+         "to": "/help"
+        },
+        {
+         "icon": "{{ getIcon('log-out') }}",
+         "label": "Logout",
+         "onClick": "() => alert(\"Logging out...\")",
+         "to": "/log-out"
+        }
+       ],
+       "subtitle": "Jane Doe",
+       "title": "Frappe"
+      },
+      "sections": [
+       {
+        "items": [
+         {
+          "icon": "{{ getIcon('bell') }}",
+          "label": "Notifications",
+          "to": ""
+         }
+        ],
+        "label": ""
+       },
+       {
+        "items": [
+         {
+          "icon": "{{ getIcon('house') }}",
+          "label": "Home",
+          "to": ""
+         },
+         {
+          "icon": "{{ getIcon('user-pen') }}",
+          "label": "Profile",
+          "to": ""
+         },
+         {
+          "icon": "{{ getIcon('settings') }}",
+          "label": "Settings",
+          "to": ""
+         }
+        ],
+        "label": ""
+       }
+      ]
+     }
+    },
+    {
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 1,
+      "height": "100%",
+      "position": "static",
+      "width": "100%"
+     },
+     "blockName": "container",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "backgroundColor": "var(--surface-white)",
+        "borderColor": "var(--outline-gray-1)",
+        "borderStyle": "solid",
+        "borderWidth": "0px 0px 1px 0px",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": "fit-content",
+        "justifyContent": "flex-start",
+        "padding": "10px 12px",
+        "width": "100%"
+       },
+       "blockName": "header",
+       "children": [
+        {
+         "baseStyles": {
+          "fontWeight": "600",
+          "textAlign": "left"
+         },
+         "children": [],
+         "classes": [],
+         "componentId": "TextBlock-68vy1ij45",
+         "componentName": "TextBlock",
+         "componentProps": {
+          "fontSize": "text-base",
+          "tag": "p",
+          "text": "Self Appraisal"
+         }
+        },
+        {
+         "baseStyles": {
+          "marginLeft": "auto"
+         },
+         "children": [],
+         "classes": [],
+         "componentId": "Button-0pw872k1p",
+         "componentName": "Button",
+         "componentProps": {
+          "disabled": false,
+          "iconLeft": "",
+          "label": "Save",
+          "loading": false,
+          "size": "sm",
+          "theme": "gray",
+          "type": "button",
+          "variant": "solid"
+         }
+        }
+       ],
+       "classes": [],
+       "componentId": "header-aztslg5vt",
+       "componentName": "header",
+       "originalElement": "header"
+      },
+      {
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 1,
+        "gap": "20px",
+        "height": "fit-content",
+        "padding": "25px",
+        "width": "100%"
+       },
+       "blockName": "container",
+       "children": [
+        {
+         "baseStyles": {
+          "borderColor": "var(--outline-gray-2",
+          "borderRadius": "0.5rem",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 1,
+          "gap": "20px",
+          "padding": "20px",
+          "position": "static",
+          "width": "fit-content"
+         },
+         "blockName": "container",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 1,
+            "gap": "5px",
+            "height": "fit-content",
+            "justifyContent": "flex-start",
+            "width": "fit-content"
+           },
+           "blockName": "container",
+           "children": [
+            {
+             "children": [],
+             "classes": [],
+             "componentId": "Avatar-uc5i3nxc5",
+             "componentName": "Avatar",
+             "componentProps": {
+              "image": "/files/person.avif",
+              "label": "Jane Doe",
+              "shape": "circle",
+              "size": "md"
+             }
+            },
+            {
+             "baseStyles": {
+              "fontWeight": "500"
+             },
+             "children": [],
+             "classes": [],
+             "componentId": "TextBlock-2tveu3wyv",
+             "componentName": "TextBlock",
+             "componentProps": {
+              "tag": "p",
+              "text": "Jane Doe"
+             }
+            }
+           ],
+           "classes": [],
+           "componentId": "container-vp1pmse29",
+           "componentName": "container",
+           "originalElement": "div"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "gap": "20px",
+            "height": "fit-content",
+            "width": "fit-content"
+           },
+           "blockName": "container",
+           "children": [
+            {
+             "children": [],
+             "classes": [],
+             "componentId": "TextEditor-lzcx85w0q",
+             "componentName": "TextEditor",
+             "componentProps": {
+              "autofocus": false,
+              "bubbleMenu": true,
+              "bubbleMenuOptions": {},
+              "content": null,
+              "editable": true,
+              "editorClass": "prose-sm max-w-none min-h-[4rem] border rounded-b-lg border-t-0 p-2",
+              "extensions": [],
+              "fixedMenu": true,
+              "mentions": null,
+              "modelValue": "Type something...",
+              "placeholder": "How did your year go? Write your reflections here...",
+              "tags": null
+             }
+            },
+            {
+             "children": [],
+             "classes": [],
+             "componentId": "TextInput-ztgdkqhb0",
+             "componentName": "TextInput",
+             "componentProps": {
+              "modelValue": {
+               "$type": "variable",
+               "name": "name"
+              },
+              "placeholder": "Expected Salary",
+              "size": "sm",
+              "type": "number",
+              "variant": "outline"
+             }
+            }
+           ],
+           "classes": [],
+           "componentId": "container-bcfs2cndn",
+           "componentName": "container",
+           "originalElement": "div"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 1,
+            "gap": "10px",
+            "justifyContent": "space-between",
+            "width": "100%"
+           },
+           "blockName": "container",
+           "children": [
+            {
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 1,
+              "gap": "10px",
+              "height": "fit-content",
+              "width": "fit-content"
+             },
+             "blockName": "container",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--ink-gray-6, #525252)",
+                "fontWeight": "400"
+               },
+               "children": [],
+               "classes": [],
+               "componentId": "TextBlock-nwzpx86j9",
+               "componentName": "TextBlock",
+               "componentProps": {
+                "tag": "p",
+                "text": "Describe your quarter with an Emoji"
+               }
+              },
+              {
+               "children": [],
+               "classes": [],
+               "componentId": "EmojiPicker-e0tkpm5h1",
+               "componentName": "EmojiPicker",
+               "componentProps": {
+                "description": ""
+               },
+               "isCustomVueComponent": true
+              }
+             ],
+             "classes": [],
+             "componentId": "container-9ye9wc6jw",
+             "componentName": "container",
+             "originalElement": "div"
+            },
+            {
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 1,
+              "gap": "10px",
+              "height": "fit-content",
+              "width": "fit-content"
+             },
+             "blockName": "container",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--ink-gray-6, #525252)",
+                "fontWeight": "400"
+               },
+               "children": [],
+               "classes": [],
+               "componentId": "TextBlock-2t3yskyxg",
+               "componentName": "TextBlock",
+               "componentProps": {
+                "tag": "p",
+                "text": "Rate yourself"
+               }
+              },
+              {
+               "children": [],
+               "classes": [],
+               "componentId": "RatingInput-1v88kbvp0",
+               "componentName": "RatingInput",
+               "componentProps": {
+                "disabled": false,
+                "max": "5",
+                "modelValue": 0
+               },
+               "isCustomVueComponent": true
+              }
+             ],
+             "classes": [],
+             "componentId": "container-hox2gdx0n",
+             "componentName": "container",
+             "originalElement": "div"
+            }
+           ],
+           "classes": [],
+           "componentId": "container-mi8hp6az0",
+           "componentName": "container",
+           "originalElement": "div"
+          }
+         ],
+         "classes": [],
+         "componentId": "container-g3mgex4dl",
+         "componentName": "container",
+         "originalElement": "div"
+        }
+       ],
+       "classes": [],
+       "componentId": "container-nqv0mz6ak",
+       "componentName": "container",
+       "originalElement": "div"
+      }
+     ],
+     "classes": [],
+     "componentId": "container-oilzo7ate",
+     "componentName": "container",
+     "originalElement": "div"
+    }
+   ],
+   "classes": [],
+   "componentId": "root",
+   "componentName": "div",
+   "originalElement": "body"
+  }
+ ],
+ "frappe_app": "mini_pos",
+ "is_standard": 1,
+ "modified": "2026-05-06 11:10:46.665016",
+ "modified_by": "Administrator",
+ "name": "my_page",
+ "owner": "Administrator",
+ "page_name": "page-b13cf850",
+ "page_title": "My Page",
+ "resources": [],
+ "route": "/my-page-9c16",
+ "studio_app": "testing",
+ "variables": [],
+ "watchers": []
+}

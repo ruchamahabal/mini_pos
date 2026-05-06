@@ -53,3 +53,6 @@ jspm_packages/
 
 # Aider AI Chat
 .aider*
+
+mini_pos/public/app_builds
+mini_pos/public/node_modules
