@@ -1,0 +1,296 @@
+{
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "flex-start",
+    "display": "flex",
+    "flexDirection": "row",
+    "flexShrink": 0,
+    "height": "100%",
+    "justifyContent": "flex-start",
+    "overflowX": "hidden",
+    "position": "static",
+    "width": "inherit"
+   },
+   "blockName": "body",
+   "children": [
+    {
+     "children": [],
+     "classes": [],
+     "componentId": "appsidebar-uba1dmz1a",
+     "componentName": "appsidebar",
+     "isStudioComponent": true
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 1,
+      "gap": "16px",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%"
+     },
+     "blockName": "container",
+     "children": [
+      {
+       "baseStyles": {
+        "height": "fit-content"
+       },
+       "children": [],
+       "classes": [],
+       "componentId": "TextBlock-8e2221f2x",
+       "componentName": "TextBlock",
+       "componentProps": {
+        "tag": "p",
+        "text": "{{ counterStore.state.count }}"
+       }
+      },
+      {
+       "children": [],
+       "classes": [],
+       "componentEvents": {
+        "click": {
+         "action": "Run Script",
+         "event": "click",
+         "oldEvent": "click",
+         "script": "counterStore.increment()"
+        }
+       },
+       "componentId": "Button-bt58n49ci",
+       "componentName": "Button",
+       "componentProps": {
+        "disabled": false,
+        "label": "Update count",
+        "loading": false,
+        "size": "sm",
+        "theme": "gray",
+        "type": "button",
+        "variant": "solid"
+       }
+      }
+     ],
+     "classes": [],
+     "componentId": "container-as7f3go76",
+     "componentName": "container",
+     "originalElement": "div"
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 1,
+      "gap": "16px",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%"
+     },
+     "blockName": "container",
+     "children": [
+      {
+       "baseStyles": {
+        "height": "fit-content"
+       },
+       "children": [],
+       "classes": [],
+       "componentId": "TextBlock-k84iqajbc",
+       "componentName": "TextBlock",
+       "componentProps": {
+        "tag": "p",
+        "text": "{{ value }}"
+       }
+      },
+      {
+       "children": [],
+       "classes": [],
+       "componentEvents": {
+        "click": {
+         "action": "Run Script",
+         "event": "click",
+         "oldEvent": "click",
+         "script": "toggle()\ncounterStore.increment()"
+        }
+       },
+       "componentId": "Button-nsxhdqfla",
+       "componentName": "Button",
+       "componentProps": {
+        "disabled": false,
+        "label": "Toggle",
+        "loading": false,
+        "size": "sm",
+        "theme": "gray",
+        "type": "button",
+        "variant": "solid"
+       }
+      }
+     ],
+     "classes": [],
+     "componentId": "container-k336iiqtn",
+     "componentName": "container",
+     "originalElement": "div"
+    }
+   ],
+   "classes": [],
+   "componentId": "root",
+   "componentName": "div",
+   "originalElement": "body"
+  }
+ ],
+ "creation": "2026-06-07 17:48:00.246315",
+ "doctype": "Studio Page",
+ "draft_blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "flex-start",
+    "display": "flex",
+    "flexDirection": "row",
+    "flexShrink": 0,
+    "height": "100%",
+    "justifyContent": "flex-start",
+    "overflowX": "hidden",
+    "position": "static",
+    "width": "inherit"
+   },
+   "blockName": "body",
+   "children": [
+    {
+     "children": [],
+     "classes": [],
+     "componentId": "appsidebar-uba1dmz1a",
+     "componentName": "appsidebar",
+     "isStudioComponent": true
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 1,
+      "gap": "16px",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%"
+     },
+     "blockName": "container",
+     "children": [
+      {
+       "baseStyles": {
+        "height": "fit-content"
+       },
+       "children": [],
+       "classes": [],
+       "componentId": "TextBlock-8e2221f2x",
+       "componentName": "TextBlock",
+       "componentProps": {
+        "tag": "p",
+        "text": "{{ counterStore.state.count }}"
+       }
+      },
+      {
+       "children": [],
+       "classes": [],
+       "componentEvents": {
+        "click": {
+         "action": "Run Script",
+         "event": "click",
+         "oldEvent": "click",
+         "script": "counterStore.increment()"
+        }
+       },
+       "componentId": "Button-bt58n49ci",
+       "componentName": "Button",
+       "componentProps": {
+        "disabled": false,
+        "label": "Update count",
+        "loading": false,
+        "size": "sm",
+        "theme": "gray",
+        "type": "button",
+        "variant": "solid"
+       }
+      }
+     ],
+     "classes": [],
+     "componentId": "container-as7f3go76",
+     "componentName": "container",
+     "originalElement": "div"
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 1,
+      "gap": "16px",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%"
+     },
+     "blockName": "container",
+     "children": [
+      {
+       "baseStyles": {
+        "height": "fit-content"
+       },
+       "children": [],
+       "classes": [],
+       "componentId": "TextBlock-k84iqajbc",
+       "componentName": "TextBlock",
+       "componentProps": {
+        "tag": "p",
+        "text": "{{ value }}"
+       }
+      },
+      {
+       "children": [],
+       "classes": [],
+       "componentEvents": {
+        "click": {
+         "action": "Run Script",
+         "event": "click",
+         "oldEvent": "click",
+         "script": "toggle()\ncounterStore.increment()"
+        }
+       },
+       "componentId": "Button-nsxhdqfla",
+       "componentName": "Button",
+       "componentProps": {
+        "disabled": false,
+        "label": "Toggle",
+        "loading": false,
+        "size": "sm",
+        "theme": "gray",
+        "type": "button",
+        "variant": "solid"
+       }
+      }
+     ],
+     "classes": [],
+     "componentId": "container-k336iiqtn",
+     "componentName": "container",
+     "originalElement": "div"
+    }
+   ],
+   "classes": [],
+   "componentId": "root",
+   "componentName": "div",
+   "originalElement": "body"
+  }
+ ],
+ "frappe_app": "mini_pos",
+ "idx": 1,
+ "is_standard": 1,
+ "modified": "2026-08-15 16:07:07.693368",
+ "modified_by": "Administrator",
+ "name": "page_1",
+ "owner": "Administrator",
+ "page_name": "page-d4484835",
+ "page_title": "Page 1",
+ "published": 1,
+ "resources": [],
+ "route": "/page-1",
+ "studio_app": "testing",
+ "variables": []
+}

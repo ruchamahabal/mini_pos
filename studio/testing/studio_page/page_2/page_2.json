@@ -1,0 +1,428 @@
+{
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "flex-start",
+    "display": "flex",
+    "flexDirection": "row",
+    "flexShrink": 0,
+    "height": "100%",
+    "justifyContent": "flex-start",
+    "overflowX": "hidden",
+    "position": "static",
+    "width": "inherit"
+   },
+   "blockName": "body",
+   "children": [
+    {
+     "children": [],
+     "classes": [],
+     "componentId": "appsidebar-eekjirp8x",
+     "componentName": "appsidebar",
+     "isStudioComponent": true
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 1,
+      "gap": "40px",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%"
+     },
+     "blockName": "container",
+     "children": [
+      {
+       "baseStyles": {
+        "height": "fit-content"
+       },
+       "children": [],
+       "classes": [],
+       "componentId": "TextBlock-8nvhm2mio",
+       "componentName": "TextBlock",
+       "componentProps": {
+        "tag": "p",
+        "text": "{{ counterStore.state.count  }}"
+       }
+      },
+      {
+       "children": [],
+       "classes": [],
+       "componentEvents": {
+        "click": {
+         "action": "Run Script",
+         "event": "click",
+         "oldEvent": "click",
+         "script": "counterStore.increment()"
+        }
+       },
+       "componentId": "Button-bt58n49ci",
+       "componentName": "Button",
+       "componentProps": {
+        "disabled": false,
+        "label": "Update count",
+        "loading": false,
+        "size": "sm",
+        "theme": "gray",
+        "type": "button",
+        "variant": "solid"
+       }
+      },
+      {
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 1,
+        "gap": "30px",
+        "height": "fit-content",
+        "width": "300px"
+       },
+       "blockName": "container",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 1,
+          "height": "fit-content",
+          "justifyContent": "space-between"
+         },
+         "blockName": "container",
+         "children": [
+          {
+           "children": [],
+           "classes": [],
+           "componentId": "TextInput-atbmbjhbl",
+           "componentName": "TextInput",
+           "componentProps": {
+            "modelValue": {
+             "$type": "variable",
+             "name": "text"
+            },
+            "placeholder": "Enter your next task",
+            "size": "sm",
+            "type": "text",
+            "variant": "subtle"
+           }
+          },
+          {
+           "children": [],
+           "classes": [],
+           "componentEvents": {
+            "click": {
+             "action": "Run Script",
+             "event": "click",
+             "oldEvent": "click",
+             "script": "todos.insert.submit({\n  \"description\": text.value\n}).then(() => {\n  toast(\"Success\")\n  text.value = \"\"\n})\n"
+            }
+           },
+           "componentId": "Button-kk4b9s9pn",
+           "componentName": "Button",
+           "componentProps": {
+            "disabled": false,
+            "label": "Add",
+            "loading": false,
+            "size": "sm",
+            "theme": "gray",
+            "type": "button",
+            "variant": "solid"
+           }
+          }
+         ],
+         "classes": [],
+         "componentId": "container-tjk98ulm6",
+         "componentName": "container",
+         "originalElement": "div"
+        },
+        {
+         "baseStyles": {
+          "width": "90px"
+         },
+         "children": [],
+         "classes": [],
+         "componentId": "ListView-3j9q3dnj8",
+         "componentName": "ListView",
+         "componentProps": {
+          "columns": [
+           {
+            "key": "description",
+            "label": "Todo Description",
+            "width": 3
+           }
+          ],
+          "options": {
+           "emptyState": {
+            "description": "No data available",
+            "title": "No Data"
+           },
+           "getRowRoute": null,
+           "onRowClick": null,
+           "resizeColumn": false,
+           "rowHeight": 40,
+           "selectable": true,
+           "showTooltip": true
+          },
+          "rowKey": "id",
+          "rows": "{{ todos.data }}"
+         }
+        }
+       ],
+       "classes": [],
+       "componentId": "container-h4n2u661w",
+       "componentName": "container",
+       "originalElement": "div"
+      }
+     ],
+     "classes": [],
+     "componentId": "container-as7f3go76",
+     "componentName": "container",
+     "originalElement": "div"
+    }
+   ],
+   "classes": [],
+   "componentId": "root",
+   "componentName": "div",
+   "originalElement": "body"
+  }
+ ],
+ "creation": "2026-06-10 15:54:55.825352",
+ "doctype": "Studio Page",
+ "draft_blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "flex-start",
+    "display": "flex",
+    "flexDirection": "row",
+    "flexShrink": 0,
+    "height": "100%",
+    "justifyContent": "flex-start",
+    "overflowX": "hidden",
+    "position": "static",
+    "width": "inherit"
+   },
+   "blockName": "body",
+   "children": [
+    {
+     "children": [],
+     "classes": [],
+     "componentId": "Dialog-gv122v1d5",
+     "componentName": "Dialog",
+     "componentProps": {
+      "actions": [
+       {
+        "label": "Confirm",
+        "onClick": "() => {}",
+        "variant": "solid"
+       }
+      ],
+      "bare": false,
+      "dismissible": true,
+      "message": "Are you sure you want to confirm this action?",
+      "modelValue": false,
+      "showCloseButton": true,
+      "size": "xl",
+      "title": "Confirm"
+     }
+    },
+    {
+     "children": [],
+     "classes": [],
+     "componentId": "appsidebar-eekjirp8x",
+     "componentName": "appsidebar",
+     "isStudioComponent": true
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 1,
+      "gap": "40px",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%"
+     },
+     "blockName": "container",
+     "children": [
+      {
+       "baseStyles": {
+        "height": "fit-content"
+       },
+       "children": [],
+       "classes": [],
+       "componentId": "TextBlock-8nvhm2mio",
+       "componentName": "TextBlock",
+       "componentProps": {
+        "tag": "p",
+        "text": "{{ counterStore.state.count  }}"
+       }
+      },
+      {
+       "children": [],
+       "classes": [],
+       "componentEvents": {
+        "click": {
+         "action": "Run Script",
+         "event": "click",
+         "oldEvent": "click",
+         "script": "counterStore.increment()"
+        }
+       },
+       "componentId": "Button-bt58n49ci",
+       "componentName": "Button",
+       "componentProps": {
+        "disabled": false,
+        "label": "Update count",
+        "loading": false,
+        "size": "sm",
+        "theme": "gray",
+        "type": "button",
+        "variant": "solid"
+       }
+      },
+      {
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 1,
+        "gap": "30px",
+        "height": "fit-content",
+        "width": "300px"
+       },
+       "blockName": "container",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 1,
+          "height": "fit-content",
+          "justifyContent": "space-between"
+         },
+         "blockName": "container",
+         "children": [
+          {
+           "children": [],
+           "classes": [],
+           "componentId": "TextInput-atbmbjhbl",
+           "componentName": "TextInput",
+           "componentProps": {
+            "modelValue": {
+             "$type": "variable",
+             "name": "text"
+            },
+            "placeholder": "Enter your next task",
+            "size": "sm",
+            "type": "text",
+            "variant": "subtle"
+           }
+          },
+          {
+           "children": [],
+           "classes": [],
+           "componentEvents": {
+            "click": {
+             "action": "Run Script",
+             "event": "click",
+             "oldEvent": "click",
+             "script": "todos.insert.submit({\n  \"description\": text.value\n}).then(() => {\n  toast(\"Success\")\n  text.value = \"\"\n})\n"
+            }
+           },
+           "componentId": "Button-kk4b9s9pn",
+           "componentName": "Button",
+           "componentProps": {
+            "disabled": false,
+            "label": "Add",
+            "loading": false,
+            "size": "sm",
+            "theme": "gray",
+            "type": "button",
+            "variant": "solid"
+           }
+          }
+         ],
+         "classes": [],
+         "componentId": "container-tjk98ulm6",
+         "componentName": "container",
+         "originalElement": "div"
+        },
+        {
+         "baseStyles": {
+          "width": "90px"
+         },
+         "children": [],
+         "classes": [],
+         "componentId": "ListView-3j9q3dnj8",
+         "componentName": "ListView",
+         "componentProps": {
+          "columns": [
+           {
+            "key": "description",
+            "label": "Todo Description",
+            "width": 3
+           }
+          ],
+          "options": {
+           "emptyState": {
+            "description": "No data available",
+            "title": "No Data"
+           },
+           "getRowRoute": null,
+           "onRowClick": null,
+           "resizeColumn": false,
+           "rowHeight": 40,
+           "selectable": true,
+           "showTooltip": true
+          },
+          "rowKey": "id",
+          "rows": "{{ todos.data }}"
+         }
+        }
+       ],
+       "classes": [],
+       "componentId": "container-h4n2u661w",
+       "componentName": "container",
+       "originalElement": "div"
+      }
+     ],
+     "classes": [],
+     "componentId": "container-as7f3go76",
+     "componentName": "container",
+     "originalElement": "div"
+    }
+   ],
+   "classes": [],
+   "componentId": "root",
+   "componentName": "div",
+   "originalElement": "body"
+  }
+ ],
+ "frappe_app": "mini_pos",
+ "idx": 1,
+ "is_standard": 1,
+ "modified": "2026-08-15 16:07:07.693368",
+ "modified_by": "Administrator",
+ "name": "page_2",
+ "owner": "Administrator",
+ "page_name": "page-b8abf6b2",
+ "page_title": "Page 2",
+ "published": 1,
+ "resources": [
+  {
+   "auto": 1,
+   "document_type": "ToDo",
+   "fields": "[\"status\",\"priority\",\"color\",\"date\",\"allocated_to\",\"description\",\"reference_type\",\"reference_name\",\"role\",\"assigned_by\",\"assigned_by_full_name\",\"sender\",\"assignment_rule\",\"name\"]",
+   "filters": "{}",
+   "method": "GET",
+   "params": "{}",
+   "resource_name": "todos",
+   "resource_type": "Document List",
+   "whitelisted_methods": "[]"
+  }
+ ],
+ "route": "/page-2",
+ "studio_app": "testing",
+ "variables": []
+}

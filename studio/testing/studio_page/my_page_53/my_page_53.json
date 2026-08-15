@@ -1,0 +1,35 @@
+{
+ "blocks": [],
+ "creation": "2026-07-21 16:08:56.276658",
+ "doctype": "Studio Page",
+ "draft_blocks": [
+  {
+   "baseStyles": {
+    "display": "flex",
+    "flexDirection": "row",
+    "flexShrink": 0,
+    "height": "100%",
+    "overflowX": "hidden",
+    "width": "inherit"
+   },
+   "blockName": "body",
+   "children": [],
+   "classes": [],
+   "componentId": "root",
+   "componentName": "div",
+   "originalElement": "body"
+  }
+ ],
+ "frappe_app": "mini_pos",
+ "is_standard": 1,
+ "modified": "2026-08-15 16:07:07.693368",
+ "modified_by": "Administrator",
+ "name": "my_page_53",
+ "owner": "Administrator",
+ "page_name": "page-65ce169c",
+ "page_title": "My Page-53",
+ "resources": [],
+ "route": "/my-page-53-e8c8",
+ "studio_app": "testing",
+ "variables": []
+}

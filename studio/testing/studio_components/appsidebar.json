@@ -1,0 +1,188 @@
+{
+ "block": {
+  "attributes": {},
+  "baseStyles": {},
+  "blockName": "Sidebar",
+  "children": [
+   {
+    "attributes": {},
+    "baseStyles": {},
+    "children": [],
+    "classes": [],
+    "componentEvents": {},
+    "componentId": "SidebarHeader-q7q90hn68",
+    "componentName": "SidebarHeader",
+    "componentProps": {
+     "menuItems": [
+      {
+       "icon": "lucide-log-out",
+       "label": "Log out",
+       "onClick": "() => {}"
+      }
+     ],
+     "showLogo": true,
+     "subtitle": "Jane Doe",
+     "title": "Frappe"
+    },
+    "componentSlots": {},
+    "mobileStyles": {},
+    "tabletStyles": {}
+   },
+   {
+    "attributes": {},
+    "baseStyles": {
+     "display": "flex",
+     "flex": "1",
+     "flexDirection": "column",
+     "minHeight": "0px",
+     "overflowY": "auto",
+     "padding": "4px 8px"
+    },
+    "children": [
+     {
+      "attributes": {},
+      "baseStyles": {},
+      "children": [
+       {
+        "attributes": {},
+        "baseStyles": {},
+        "children": [],
+        "classes": [],
+        "componentEvents": {},
+        "componentId": "TextBlock-f970i17ke",
+        "componentName": "TextBlock",
+        "componentProps": {
+         "tag": "span",
+         "text": "Menu"
+        },
+        "componentSlots": {},
+        "mobileStyles": {},
+        "tabletStyles": {}
+       }
+      ],
+      "classes": [],
+      "componentEvents": {},
+      "componentId": "SidebarLabel-q4ecq1g3e",
+      "componentName": "SidebarLabel",
+      "componentProps": {},
+      "componentSlots": {},
+      "mobileStyles": {},
+      "tabletStyles": {}
+     },
+     {
+      "attributes": {},
+      "baseStyles": {},
+      "children": [],
+      "classes": [],
+      "componentEvents": {},
+      "componentId": "SidebarItem-0wx74x8km",
+      "componentName": "SidebarItem",
+      "componentProps": {
+       "icon": "lucide-house",
+       "label": "Home"
+      },
+      "componentSlots": {},
+      "mobileStyles": {},
+      "tabletStyles": {}
+     },
+     {
+      "attributes": {},
+      "baseStyles": {},
+      "children": [],
+      "classes": [],
+      "componentEvents": {},
+      "componentId": "SidebarItem-8lm754vmr",
+      "componentName": "SidebarItem",
+      "componentProps": {
+       "icon": "lucide-user-pen",
+       "label": "Profile"
+      },
+      "componentSlots": {},
+      "mobileStyles": {},
+      "tabletStyles": {}
+     },
+     {
+      "attributes": {},
+      "baseStyles": {},
+      "children": [],
+      "classes": [],
+      "componentEvents": {},
+      "componentId": "SidebarItem-5jg2p2vu5",
+      "componentName": "SidebarItem",
+      "componentProps": {
+       "icon": "lucide-settings",
+       "label": "Settings"
+      },
+      "componentSlots": {},
+      "mobileStyles": {},
+      "tabletStyles": {}
+     }
+    ],
+    "classes": [],
+    "componentEvents": {},
+    "componentId": "container-w5kpmof1d",
+    "componentName": "container",
+    "componentProps": {},
+    "componentSlots": {},
+    "mobileStyles": {},
+    "originalElement": "div",
+    "tabletStyles": {}
+   },
+   {
+    "attributes": {},
+    "baseStyles": {
+     "marginTop": "auto",
+     "padding": "0px 8px 8px"
+    },
+    "children": [
+     {
+      "attributes": {},
+      "baseStyles": {},
+      "children": [],
+      "classes": [],
+      "componentEvents": {},
+      "componentId": "SidebarCollapseToggle-8jzomqgys",
+      "componentName": "SidebarCollapseToggle",
+      "componentProps": {},
+      "componentSlots": {},
+      "mobileStyles": {},
+      "tabletStyles": {}
+     }
+    ],
+    "classes": [],
+    "componentEvents": {},
+    "componentId": "container-2b7j6nozg",
+    "componentName": "container",
+    "componentProps": {},
+    "componentSlots": {},
+    "mobileStyles": {},
+    "originalElement": "div",
+    "tabletStyles": {}
+   }
+  ],
+  "classes": [],
+  "componentEvents": {},
+  "componentId": "Sidebar-4ngb89ydz",
+  "componentName": "Sidebar",
+  "componentProps": {
+   "collapsed": null,
+   "collapsedWidth": "3rem",
+   "width": "15rem"
+  },
+  "componentSlots": {},
+  "mobileStyles": {},
+  "tabletStyles": {}
+ },
+ "component_id": "appsidebar",
+ "component_name": "AppSidebar",
+ "creation": "2026-08-04 14:58:56.422906",
+ "docstatus": 0,
+ "doctype": "Studio Component",
+ "idx": 0,
+ "inputs": [],
+ "is_disabled": 0,
+ "modified": "2026-08-13 15:07:08.814261",
+ "modified_by": "Administrator",
+ "name": "appsidebar",
+ "owner": "Administrator"
+}

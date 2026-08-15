@@ -1,9 +1,9 @@
 <template>
 	<div class="flex flex-col gap-2 w-fit">
 		<Popover transition="default">
-			<template #target="{ togglePopover }">
-				<slot name="target">
-					<Button class="w-fit" variant="subtle" @click="togglePopover">
+			<template #target="{ toggle, isOpen }">
+				<slot name="target" :toggle="toggle" :isOpen="isOpen">
+					<Button class="w-fit" variant="subtle" @click="toggle">
 						<span v-if="currentEmoji" class="mr-2">{{ currentEmoji.emoji }}</span>
 						{{ currentEmoji ? currentEmoji.description : props.description || "Pick Emoji" }}
 					</Button>
